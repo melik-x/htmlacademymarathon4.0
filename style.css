@@ -1,0 +1,35 @@
+header {
+	background-color: darkslateblue;
+	color: aliceblue;
+	font-family: monospace;
+	font-size: 15px;
+	display: block;
+	height: 100px;
+	width: 100%;
+	padding-top: 35px;
+	
+}
+li {
+	display: inline;
+	text-decoration: none;
+	margin: 20px;
+	padding: 20px;
+}
+a { 
+	color:aliceblue;
+	text-decoration-line: none;
+}
+a:hover {
+	background-color: darkorange;
+}
+
+main {
+	width: 300px;
+	display: flex;
+}
+
+.item {
+	padding: 15px;
+	background-color: black;
+	border-radius: 15px;
+}
