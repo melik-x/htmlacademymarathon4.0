@@ -1,35 +1,128 @@
-header {
-	background-color: darkslateblue;
-	color: aliceblue;
-	font-family: monospace;
-	font-size: 15px;
-	display: block;
-	height: 100px;
-	width: 100%;
-	padding-top: 35px;
-	
+body {
+	color: #AE7C78;
 }
-li {
-	display: inline;
+
+a {
+	color: #AE7C78;
 	text-decoration: none;
-	margin: 20px;
+}
+
+h1 {
+	font-size: 44px;
+	font-family: 'Playfair Display', serif;                           
+	line-height: 59px;
+}
+
+.header_italic {
+	font-style: italic;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	background-color: #AE7C78;
+	border: none;
+	border-radius: 40px;
 	padding: 20px;
-}
-a { 
-	color:aliceblue;
-	text-decoration-line: none;
-}
-a:hover {
-	background-color: darkorange;
+	width: 285px;
+	height: 80px;
 }
 
-main {
-	width: 300px;
-	display: flex;
+.benefits_delivery {
+	background-image: url(img/delivery.svg);
+	background-repeat: no-repeat;
 }
 
-.item {
-	padding: 15px;
-	background-color: black;
-	border-radius: 15px;
+.benefits_bouquet {
+	background-image: url(img/bouquet.svg);
+	background-repeat: no-repeat;
+}
+
+.benefits_photo {
+	background-image: url(img/photo.svg);
+	background-repeat: no-repeat;
+}
+
+dt {
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+dd {
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+h2 {
+	font-family: Playfair Display;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.02em;
+}
+
+h3 {
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.catalog > p:not(:last-child) {
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 20px;	
+}
+
+.catalog > p:last-child {
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.main-catalog p {
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.discount {
+	color: #FFFFFF;
+	background-color: #AE7C78;
+}
+
+.order {
+	background: #AE7C78 url("img/zakaz.svg") no-repeat;
+}
+
+.delivery_2 {
+	background: #AE7C78 url("img/delivery.svg") no-repeat;
+}
+
+.payment { 
+	background: #AE7C78 url("img/payment.svg");
+}
+
+.details {
+	background: #AE7C78 url("img/details.svg")
+}
+
+footer {
+	background-color: #AE7C78;
+}
+
+footer a {
+	color: #FFFFFF;
 }
